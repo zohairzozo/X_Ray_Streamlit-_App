@@ -10,8 +10,8 @@ from skimage.color import rgb2gray
 from skimage.filters import threshold_otsu
 
 # Set the directory paths for normal and pneumonia training images
-TRAIN_NORMAL = "chest_xray/train/NORMAL"
-TRAIN_PNEUMONIA = "chest_xray/train/PNEUMONIA"
+TRAIN_NORMAL = "chest_xray_small/train/NORMAL"
+TRAIN_PNEUMONIA = "chest_xray_small/train/PNEUMONIA"
 
 # Load your trained model
 model_path = 'model.h5'
